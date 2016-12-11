@@ -4,6 +4,7 @@
         "s3_bucket": "zappa-mta-api",
         "environment_variables" : {
             "MTA_SETTINGS": "settings.cfg"
-        }
+        },
+        "keep_warm": false
     }
 }
