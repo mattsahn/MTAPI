@@ -93,7 +93,8 @@ class MtaSanitizer(object):
 
         feed_urls = [
             'http://datamine.mta.info/mta_esi.php?feed_id=1&key='+self._KEY,
-            'http://datamine.mta.info/mta_esi.php?feed_id=2&key='+self._KEY
+            'http://datamine.mta.info/mta_esi.php?feed_id=2&key='+self._KEY,
+            'http://datamine.mta.info/mta_esi.php?feed_id=16&key='+self._KEY
         ]
 
         for i, feed_url in enumerate(feed_urls):

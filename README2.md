@@ -13,3 +13,6 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET
 
 # deploy to Lambda
 zappa update
+
+# Make station dict file (must do some cleanup on it to replace 'st' with 'street' etc)
+python make_station_dict.py  > StationDict.txt

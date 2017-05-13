@@ -7,4 +7,5 @@ with open("stations.json", 'rb') as f:
     stations = json.load(f)
     for idx, station in enumerate(stations):
         station['id'] = idx
-        print(str(station['name']).lower() + "|" + str(station['id']))
+        print(str(station['id']) + "|" + str(station['name']).lower())
+        
