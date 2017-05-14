@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "app_function": "app.app", 
+        "s3_bucket": "zappa-mta-api",
+        "environment_variables" : {
+            "MTA_SETTINGS": "settings.cfg"
+        },
+        "keep_warm": false
+    },
+        "v2": {
+        "app_function": "app.app", 
+        "s3_bucket": "zappa-mta-api",
+        "environment_variables" : {
+            "MTA_SETTINGS": "settings.cfg"
+        },
+        "keep_warm": false
+    }
+}
